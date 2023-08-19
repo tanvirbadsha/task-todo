@@ -1,0 +1,11 @@
+{
+  "name": "task-todo",
+  "version": "1.0.0",
+  "description": "This is a personal project of a to do app. This is going to be a basic todo app where you can add tasks, then edit and delete them without the need of relaoding them. Am using react for that reason.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tanvir badsha",
+  "license": "ISC"
+}
