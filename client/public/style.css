@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F4EB;
+}
+.navbar{
+    padding: 10px;
+    margin: 2px;
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: center;
+}
+.form input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    background-color: #749BC2;
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+    font-size: large;
+}
+
+.task{
+    background-color: #91C8E4;
+    width: 30%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-radius: 15px;
+
+}
+.task p{
+    color: white;
+    margin-left: 5px;
+    font-size: larger;
+    padding: 5px;
+}
+.task-form{
+    display: flex;
+    justify-content: space-around;
+}
+.checked-item {
+    text-decoration: line-through;
+  }
+/* #749BC2  #4682A9 ei 2 ta use kora baki */
